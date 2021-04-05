@@ -28,7 +28,7 @@
         border-radius: 10px;
         transition: 0.5s 0.3s;
     }
-    .card.active::before{
+    .card:hover::before{
         box-shadow: 0px 0px 8px rgb(218, 0, 83),
                     0px 0px 20px rgb(241, 1, 73),
                     0px 0px 10px rgb(78, 255, 9);
@@ -45,7 +45,7 @@
         border-radius: 10px;
         transition: 0.5s 0.3s;
     }
-    .card.active:nth-child(2):before{
+    .card:hover:nth-child(2):before{
         box-shadow: 0px 0px 8px rgb(19, 227, 255),
                     0px 0px 20px rgb(19, 160, 255),
                     0px 0px 10px rgb(78, 255, 9);
@@ -62,7 +62,7 @@
         border-radius: 10px;
         transition: 0.5s 0.3s;
     }
-    .card.active:nth-child(3):before{
+    .card:hover:nth-child(3):before{
         box-shadow: 0px 0px 8px rgb(19, 255, 224),
                     0px 0px 20px rgb(86, 255, 19),
                     0px 0px 10px rgb(59, 207, 0);
@@ -99,7 +99,7 @@
         border-radius: 10px;
         transition: 0.5s;
     }
-    .card .box.active{
+    .card .box:hover{
         box-shadow: -9px 9px 20px rgba(0, 0, 0, 0.5);
     }
     .p{
@@ -198,28 +198,28 @@
     color: #fff;
 }
 
-.card.active .text{
+.card:hover .text{
     bottom: -70px;
     transform: translateX(-50%) translateY(-80%);
     z-index: 12;
     padding: 10px 35px 10px;
     transition-delay: 0s, 0.5s, 0.5s, 0s;
 }
-.card.active .text2{
+.card:hover .text2{
          transition-delay: 0s, 0.5s, 0.5s, 0s;
          top: -50px;
          transform: translateX(-50%) translateY(60%);
          z-index: 12;
          padding: 10px 50px 15px;
 }
-.card.active .text3{
+.card:hover .text3{
          transition-delay: 0s, 0.5s, 0.5s, 0s;
          top: -50px;
          transform: translateX(-50%) translateY(60%);
          z-index: 12;
          padding: 10px 50px 10px;
 }
-.card.active .text4{
+.card:hover .text4{
          transition-delay: 0s, 0.5s, 0.5s, 0s;
          top: -50px;
          transform: translateX(-50%) translateY(60%);
@@ -266,15 +266,15 @@
         stroke-dasharray: 440px;
         transition: 1s;
     }
-    .card.active svg circle:nth-child(2){
+    .card:hover svg circle:nth-child(2){
         stroke-dashoffset: calc(1200px - (440px * 90) / 100);
         stroke: #ff0461;
     }
-    .card.active:nth-child(2) svg circle:nth-child(2){
+    .card:hover:nth-child(2) svg circle:nth-child(2){
         stroke-dashoffset: calc(1000px - (440px * 65) / 100);
         stroke: #2bd2ff;
     }
-    .card.active:nth-child(3) svg circle:nth-child(2){
+    .card:hover:nth-child(3) svg circle:nth-child(2){
         stroke: #36f145;
         stroke-dashoffset: calc(1100px - (440px * 82) / 100);
     }
