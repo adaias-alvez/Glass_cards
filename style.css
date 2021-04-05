@@ -71,7 +71,9 @@
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .c .card{
         position: relative;
@@ -80,7 +82,7 @@
         height: 300px;
         text-align: center;
         z-index: 10;
-        margin: 70px 40px 150px;
+        margin: 70px 80px 150px;
     }
     .c .card .box{
         position: absolute;
